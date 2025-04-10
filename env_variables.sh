@@ -25,7 +25,9 @@ fi
 TF_VAR_sonarqube_db_name="sonarqube"
 TF_VAR_sonarqube_db_username="postgres"
 TF_VAR_sonarqube_db_password="postgres"
+TF_VAR_mail_username="soatfiap@gmail.com"
+TF_VAR_mail_password="plya bnjt dwzm rvel"
 
-export TF_VAR_sonarqube_db_name TF_VAR_sonarqube_db_username TF_VAR_sonarqube_db_password
+export TF_VAR_sonarqube_db_name TF_VAR_sonarqube_db_username TF_VAR_sonarqube_db_password TF_VAR_mail_username TF_VAR_mail_password
 
 echo "Sonarqube postgres DB credentials exported."

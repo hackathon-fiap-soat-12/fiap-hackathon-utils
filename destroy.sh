@@ -29,12 +29,12 @@ run_terraform() {
 }
 
 # run_terraform "payment/terraform"
-# run_terraform "fiap-hackathon-video/terraform"
-# run_terraform "fiap-hackathon-mail/terraform"
-# run_terraform "fiap-hackathon-process/terraform"
-# run_terraform "fiap-hackathon-api-gateway/terraform"
-# run_terraform "fiap-hackathon-cognito/terraform"
-# run_terraform "fiap-hackathon-lambda-auth/terraform"
+run_terraform "fiap-hackathon-video/terraform"
+run_terraform "fiap-hackathon-mail/terraform"
+run_terraform "fiap-hackathon-process/terraform"
+run_terraform "fiap-hackathon-cognito/terraform"
+run_terraform "fiap-hackathon-api-gateway/terraform"
+run_terraform "fiap-hackathon-lambda-authorizer/terraform"
 run_terraform "fiap-hackathon-lambda-video-receive/terraform"
 run_terraform "fiap-hackathon-observability/terraform"
 run_terraform "fiap-hackathon-k8s-infra/terraform"
@@ -44,14 +44,4 @@ run_terraform "fiap-hackathon-db/terraform"
 run_terraform "fiap-hackathon-vpc/terraform"
 
 echo "All terraform destroy commands have completed."
-
-
-
-
-
-
-
-
-
-
 
